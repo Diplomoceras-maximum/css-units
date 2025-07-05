@@ -1,0 +1,39 @@
+/* CSS Units*/
+
+/* Absolute Units
+
+    1. Absolute units are those that are always the same in any context
+    2. px is an absolute unit because the size of a pixel doesnt change realtive to anything else on the page
+    3. px is the only absolute unit that should be used for web development
+
+    Examples of absolute units:
+    1. px - pixels
+    2. cm - centimeters 
+    3. mm - millimeters
+
+*/
+
+/* Relative Units
+
+    Relative units change based on their context, examples include::after
+
+    === em and rem ===
+    1. em and rem refer to a font size
+    2. 1em is the font-size of the parent element, therefore a font-size of 16px would equal 1em, 4em would equal 64px
+    3. 1rem is the font-size of the root element (:root or html), the maths for the px is the same as em
+    4. rem is recommended for websites with websites allowing users to change base font-size
+
+    === viewport units ===
+    1. vh and vw refer to the size of the viewport
+    2. 1vh is equal to 1% of the viewport height
+    3. 1vw is equal to 1% of the viewport width
+    4. useful for creating things based on the size of the screen, including full-height hero sections or a full screen app interface
+
+    Examples of relative units:
+    1. em - relative to the parent element's font-size
+    2. rem - relative to the root font-size
+    3. vh - relative to 1% of the viewport's height
+    4. vw - relative to 1% of the viewport's width
+    5. % - relative to the parent element
+
+*/

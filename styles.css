@@ -37,3 +37,15 @@
     5. % - relative to the parent element
 
 */
+
+/* What units to use and and when?
+
+    1. FONT: rem should be used for font (change html or :root font-size to 62.5% to get 10px base for easier maths)
+    2. WIDTH: percentage + max-width should be used for most widths; ch can be used for text width with ch (refering to the width of the character 0) so 45ch is around 45 characters wide (depending on the font)
+    3. HEIGHT: if height is needed (not common), min-height should be used
+    4. PADDING/MARGIN: rem or em
+    5. MEDIA QUERIES: em
+
+    ### px should only really be used for small things like shadows or borders ###
+
+*/
